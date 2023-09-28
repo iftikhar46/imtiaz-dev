@@ -1,0 +1,23 @@
+{
+  "menu": [
+    {
+      "url": "/dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "slug": "dashboard"
+    },
+    {
+      "name": "Setting",
+      "icon": "menu-icon tf-icons ti ti-layout-sidebar",
+      "slug": "settings",
+      "submenu": [
+        {
+          "url": "layouts/collapsed-menu",
+          "name": "Collapsed menu",
+          "slug": "layouts-collapsed-menu"
+        }
+      ]
+    }
+
+  ]
+}
